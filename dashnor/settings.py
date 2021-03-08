@@ -24,7 +24,7 @@ SECRET_KEY = 'w5qis!024ka74-ol0nq0_wm(fc8p-if%0+2kvm(!wqw=&=)ryw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dashnor.herokuapp.com']
 
 # Application definition
 
