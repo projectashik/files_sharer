@@ -1,1 +1,1 @@
-web: gunicorn dashnor:app --log-file=log.txt
+web: gunicorn dashnor.wsgi --log-file=log.txt
