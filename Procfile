@@ -1,0 +1,1 @@
+web: gunicorn dashnor:app --log-file=log.txt

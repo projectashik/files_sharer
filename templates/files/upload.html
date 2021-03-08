@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form action="{% url 'files:upload' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <h2>Upload files here</h2>
+    <input type="file" multiple class="form-control my-3" name="files"/>
+    <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+{% endblock %}
